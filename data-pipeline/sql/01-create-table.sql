@@ -1,3 +1,11 @@
+-- Enable unaccent extension (must run before table creation)
+CREATE EXTENSION IF NOT EXISTS unaccent;
+
+-- Immutable wrapper required for use in generated columns
+CREATE OR REPLACE FUNCTION immutable_unaccent(text)
+  RETURNS text LANGUAGE sql IMMUTABLE PARALLEL SAFE AS
+  $$ SELECT unaccent($1) $$;
+
 -- Table: organismes
 -- Aide à domicile organizations in Quebec (EÉSADs, CPEs, etc.)
 
@@ -21,16 +29,13 @@ CREATE TABLE IF NOT EXISTS organismes (
   nb_avis_google  int,
   photo_url       text,
   quality_score   int,
-  nom_search      text GENERATED ALWAYS AS (lower(unaccent(nom))) STORED,
-  ville_search    text GENERATED ALWAYS AS (lower(unaccent(ville))) STORED,
-  region_search   text GENERATED ALWAYS AS (lower(unaccent(region))) STORED,
+  nom_search      text GENERATED ALWAYS AS (lower(immutable_unaccent(nom))) STORED,
+  ville_search    text GENERATED ALWAYS AS (lower(immutable_unaccent(ville))) STORED,
+  region_search   text GENERATED ALWAYS AS (lower(immutable_unaccent(region))) STORED,
   refreshed_at    timestamptz,
   created_at      timestamptz DEFAULT now(),
   UNIQUE(source, source_id)
 );
-
--- Enable unaccent extension (run once per project)
-CREATE EXTENSION IF NOT EXISTS unaccent;
 
 -- Indexes
 CREATE INDEX IF NOT EXISTS organismes_ville_search_idx    ON organismes (ville_search);
