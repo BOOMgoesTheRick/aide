@@ -19,7 +19,7 @@ const KEEP_KEYWORDS = [
   "maintien", "autonomie", "bénévole", "benevole", "entraide", "soutien",
   "ménager", "menager", "ménage", "menage", "nettoyage", "nettoy",
   "assistance", "accompagnement", "répit", "repit",
-  "santé", "sante",
+  "santé à domicile", "sante a domicile",
   "senior", "aîné", "aine", "personne âgée", "personne agee",
   "coopérative", "cooperative", "coop",
   "ressource", "service", "maison", "foyer",
