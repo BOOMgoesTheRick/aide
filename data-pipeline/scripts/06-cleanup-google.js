@@ -65,6 +65,7 @@ const REJECT_KEYWORDS = [
   "supermarché", "supermarche",
   "cabane", "boulangerie", "pâtisserie", "patisserie",
   "village-relais", "québec inc", "quebec inc",
+  "académie", "academie", "musique", "music", "étude", "etude",
   "9385", "7365",
 ];
 
