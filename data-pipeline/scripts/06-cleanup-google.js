@@ -19,7 +19,7 @@ const KEEP_KEYWORDS = [
   "maintien", "autonomie", "bénévole", "benevole", "entraide", "soutien",
   "ménager", "menager", "ménage", "menage", "nettoyage", "nettoy",
   "assistance", "accompagnement", "répit", "repit",
-  "santé", "sante", "infirmier", "infirmière", "infirmiere",
+  "santé", "sante",
   "senior", "aîné", "aine", "personne âgée", "personne agee",
   "coopérative", "cooperative", "coop",
   "ressource", "service", "maison", "foyer",
@@ -28,7 +28,7 @@ const KEEP_KEYWORDS = [
   // English
   "homecare", "home care", "home health", "home service",
   "caregiver", "caregiving", "elder care", "eldercare",
-  "nursing", "personal care", "domestic", "cleaning service",
+  "personal care", "domestic", "cleaning service",
   " care ", "care inc", "care ltd", "care services",
   "halo", "novaide", "dimavie", "aspire", "universeau",
 ];
@@ -59,6 +59,9 @@ const REJECT_KEYWORDS = [
   "prise de sang", "prélèvement", "prelevem", "laboratoire", "labo ",
   "blood", "specimen", "analyse médicale", "analyse medicale",
   "dynacare", "lifelabs", "biron",
+  "soins infirmiers", "infirmier", "infirmière", "infirmiere",
+  "nursing", "perfusion", "vaccination", "clinique de soins",
+  "soins médicaux", "soins medicaux", "soins de santé spécialisés",
   "supermarché", "supermarche",
   "cabane", "boulangerie", "pâtisserie", "patisserie",
   "village-relais", "québec inc", "quebec inc",
