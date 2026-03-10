@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "brand": "AideDomicile",
+    "findProvider": "Find a provider"
+  },
+  "home": {
+    "heroTitle": "Home care in Quebec,",
+    "heroTitleEm": "simplified.",
+    "heroDesc": "Find a home care organization near you — accredited ÉÉSAD organizations and private agencies across Quebec.",
+    "searchPlaceholder": "City, organization name…",
+    "searchBtn": "Search",
+    "statsLabels": {
+      "total": "organizations listed",
+      "eesad": "certified ÉÉSAD",
+      "regions": "regions covered",
+      "withRating": "with Google rating"
+    },
+    "featuredTitle": "Accredited organizations",
+    "featuredDesc": "These organizations are members of an accredited network — a sign of seriousness and reliability.",
+    "viewAll": "View all organizations →",
+    "topRatedTitle": "Top rated by clients",
+    "topRatedDesc": "Organizations with the best Google ratings — minimum 10 reviews.",
+    "viewAllRated": "View all →",
+    "reviewsShort": "reviews",
+    "moreServices": "+{n} more",
+    "howItWorksTitle": "How it works",
+    "steps": [
+      {
+        "title": "Search by city",
+        "desc": "Enter your city or the name of an organization to find available services near you."
+      },
+      {
+        "title": "Compare organizations",
+        "desc": "View Google ratings, offered services and hourly rates for each organization."
+      },
+      {
+        "title": "Contact directly",
+        "desc": "Call or visit the organization's website to get a service tailored to your needs."
+      }
+    ],
+    "ctaTitle": "Ready to find help?",
+    "ctaDesc": "Browse the {total} organizations available across all regions of Quebec.",
+    "ctaBtn": "Start searching →"
+  },
+  "recherche": {
+    "searchPlaceholder": "City, organization name…",
+    "sourceAll": "All sources",
+    "sourceEesad": "ÉÉSAD only",
+    "sourceGoogle": "Google Places",
+    "regionPlaceholder": "Region…",
+    "searchBtn": "Search",
+    "clear": "✕ Clear",
+    "activeFilters": "Active filters:",
+    "organisation": "organization",
+    "organisations": "organizations",
+    "page": "page {page} / {total}",
+    "noResults": "No results found",
+    "noResultsHint": "Try a different search term or",
+    "noResultsClear": "clear the filters",
+    "noRating": "No rating",
+    "reviewsShort": "reviews",
+    "moreServices": "+{n} more",
+    "prev": "← Previous",
+    "next": "Next →"
+  },
+  "organisme": {
+    "back": "Back to results",
+    "servicesOffered": "Services offered",
+    "rateDisclaimer": "Rates are indicative — contact the organization to confirm.",
+    "googleRating": "Google Rating",
+    "basedOnReviews": "Based on {n} Google reviews",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "visitWebsite": "Visit website",
+    "eesadBox": "This organization is a member of an accredited home care network in Quebec.",
+    "sourceLabel": "Source:",
+    "sourceEesad": "Data from a public directory of accredited organizations.",
+    "sourceGoogle": "Google Places data — for information purposes, may require verification."
+  },
+  "footer": {
+    "brand": "AideDomicile Québec",
+    "desc": "Search tool for home care organizations in Quebec.",
+    "eesadNote": "ÉÉSAD data comes from the Réseau de coopération des ÉÉSAD.",
+    "copy": "© 2026 — Data for informational purposes only."
+  },
+  "lang": {
+    "fr": "FR",
+    "en": "EN"
+  }
+}

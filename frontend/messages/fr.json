@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "brand": "AideDomicile",
+    "findProvider": "Trouver un organisme"
+  },
+  "home": {
+    "heroTitle": "L'aide à domicile au Québec,",
+    "heroTitleEm": "simplifiée.",
+    "heroDesc": "Trouvez une organisation d'aide à domicile près de chez vous — organismes accrédités ÉÉSAD et agences privées partout au Québec.",
+    "searchPlaceholder": "Ville, nom d'organisation…",
+    "searchBtn": "Rechercher",
+    "statsLabels": {
+      "total": "organisations répertoriées",
+      "eesad": "ÉÉSAD certifiées",
+      "regions": "régions couvertes",
+      "withRating": "avec évaluation Google"
+    },
+    "featuredTitle": "Organismes accrédités",
+    "featuredDesc": "Ces organismes sont membres d'un réseau accrédité — un indicateur de sérieux et de fiabilité.",
+    "viewAll": "Voir tous les organismes →",
+    "topRatedTitle": "Mieux notés par les clients",
+    "topRatedDesc": "Organismes avec les meilleures évaluations Google — minimum 10 avis.",
+    "viewAllRated": "Voir tous →",
+    "reviewsShort": "avis",
+    "moreServices": "+{n} autres",
+    "howItWorksTitle": "Comment ça fonctionne",
+    "steps": [
+      {
+        "title": "Recherchez par ville",
+        "desc": "Entrez votre ville ou le nom d'un organisme pour trouver les services disponibles près de chez vous."
+      },
+      {
+        "title": "Comparez les organismes",
+        "desc": "Consultez les notes Google, les services offerts et les tarifs horaires pour chaque organisme."
+      },
+      {
+        "title": "Contactez directement",
+        "desc": "Appelez ou visitez le site web de l'organisme pour obtenir un service adapté à vos besoins."
+      }
+    ],
+    "ctaTitle": "Prêt à trouver de l'aide ?",
+    "ctaDesc": "Parcourez les {total} organisations disponibles dans toutes les régions du Québec.",
+    "ctaBtn": "Commencer la recherche →"
+  },
+  "recherche": {
+    "searchPlaceholder": "Ville, nom d'organisation…",
+    "sourceAll": "Toutes les sources",
+    "sourceEesad": "ÉÉSAD seulement",
+    "sourceGoogle": "Google Places",
+    "regionPlaceholder": "Région…",
+    "searchBtn": "Rechercher",
+    "clear": "✕ Effacer",
+    "activeFilters": "Filtres actifs :",
+    "organisation": "organisation",
+    "organisations": "organisations",
+    "page": "page {page} / {total}",
+    "noResults": "Aucun résultat trouvé",
+    "noResultsHint": "Essayez un autre terme de recherche ou",
+    "noResultsClear": "effacez les filtres",
+    "noRating": "Pas d'évaluation",
+    "reviewsShort": "avis",
+    "moreServices": "+{n} autres",
+    "prev": "← Précédent",
+    "next": "Suivant →"
+  },
+  "organisme": {
+    "back": "Retour aux résultats",
+    "servicesOffered": "Services offerts",
+    "rateDisclaimer": "Tarifs à titre indicatif — contactez l'organisme pour une confirmation.",
+    "googleRating": "Évaluation Google",
+    "basedOnReviews": "Basé sur {n} avis Google",
+    "contact": "Coordonnées",
+    "phone": "Téléphone",
+    "email": "Courriel",
+    "address": "Adresse",
+    "visitWebsite": "Visiter le site web",
+    "eesadBox": "Cet organisme est membre d'un réseau accrédité d'aide à domicile au Québec.",
+    "sourceLabel": "Source :",
+    "sourceEesad": "Données issues d'un annuaire public d'organismes accrédités.",
+    "sourceGoogle": "Données Google Places — à titre informatif, peuvent nécessiter une vérification."
+  },
+  "footer": {
+    "brand": "AideDomicile Québec",
+    "desc": "Outil de recherche d'organismes d'aide à domicile au Québec.",
+    "eesadNote": "Les données ÉÉSAD proviennent du Réseau de coopération des ÉÉSAD.",
+    "copy": "© 2026 — Données à titre informatif uniquement."
+  },
+  "lang": {
+    "fr": "FR",
+    "en": "EN"
+  }
+}
