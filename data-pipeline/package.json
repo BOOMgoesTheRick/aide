@@ -7,6 +7,7 @@
   "scripts": {
     "scrape-eesad": "node scripts/01-scrape-eesad.js",
     "import": "node scripts/02-import-supabase.js",
+    "geocode": "node scripts/03-geocode.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
