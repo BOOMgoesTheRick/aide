@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getSb } from "@/lib/supabase";
 import { getTranslations } from "next-intl/server";
 
@@ -85,7 +86,8 @@ export default async function HomePage({
         borderBottom: "1px solid var(--gray-200)",
       }}>
         <div className="container">
-          <div style={{ maxWidth: 680 }}>
+          <div style={{ display: "flex", gap: 24, alignItems: "flex-end" }}>
+          <div style={{ flex: "0 0 580px" }}>
             <h1 style={{
               fontFamily: "var(--font-display)",
               fontSize: "clamp(2.2rem, 5vw, 3.5rem)",
@@ -144,6 +146,19 @@ export default async function HomePage({
                 ))}
               </div>
             </form>
+          </div>
+
+          {/* Nurse photo */}
+          <div style={{ flexShrink: 0, alignSelf: "flex-end", marginBottom: -64 }}>
+            <Image
+              src="/nurse.png"
+              alt="Aide-soignante en uniforme vert"
+              width={320}
+              height={420}
+              style={{ objectFit: "contain", objectPosition: "bottom", display: "block" }}
+              priority
+            />
+          </div>
           </div>
         </div>
       </section>
