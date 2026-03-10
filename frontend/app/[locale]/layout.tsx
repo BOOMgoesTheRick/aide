@@ -54,6 +54,7 @@ export default async function LocaleLayout({
   const tf = await getTranslations({ locale, namespace: "footer" });
 
   const rechercheHref = locale === "en" ? "/en/recherche" : "/recherche";
+  const guideHref = locale === "en" ? "/en/aide-a-domicile" : "/aide-a-domicile";
   const homeHref = locale === "en" ? "/en" : "/";
   const frHref = "/";
   const enHref = "/en";
@@ -74,6 +75,7 @@ export default async function LocaleLayout({
                 {t("brand")}
               </a>
               <ul className="nav-links">
+                <li><a href={guideHref} className="nav-link">{locale === "fr" ? "C'est quoi ?" : "What is it?"}</a></li>
                 <li><a href={rechercheHref + "?sort=rating"} className="nav-link nav-link-cta">{t("findProvider")}</a></li>
                 <li style={{ marginLeft: 16, display: "flex", alignItems: "center", gap: 4, fontSize: "0.8rem", color: "var(--gray-400)" }}>
                   <a href={frHref} style={{ color: locale === "fr" ? "var(--green)" : "var(--gray-400)", fontWeight: locale === "fr" ? 600 : 400, textDecoration: "none" }}>FR</a>

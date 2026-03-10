@@ -49,12 +49,14 @@ export default async function HomePage({
       .select("id, nom, ville, region, note_google, nb_avis_google, telephone, site_web, services, source")
       .eq("source", "eesad")
       .not("note_google", "is", null)
+      .gte("nb_avis_google", 25)
+      .order("note_google", { ascending: false })
       .order("nb_avis_google", { ascending: false })
       .limit(6),
     sb.from("organismes")
       .select("id, nom, ville, region, note_google, nb_avis_google, telephone, site_web, services, source")
       .not("note_google", "is", null)
-      .gte("nb_avis_google", 10)
+      .gte("nb_avis_google", 50)
       .order("note_google", { ascending: false })
       .order("nb_avis_google", { ascending: false })
       .limit(8),

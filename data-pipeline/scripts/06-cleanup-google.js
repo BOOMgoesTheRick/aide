@@ -66,6 +66,8 @@ const REJECT_KEYWORDS = [
   "cabane", "boulangerie", "pâtisserie", "patisserie",
   "village-relais", "québec inc", "quebec inc",
   "académie", "academie", "musique", "music", "étude", "etude",
+  "résidence pour", "residence pour", "trouver une résidence", "placement en résidence",
+  "services-conseils", "service-conseil",
   "9385", "7365",
 ];
 
