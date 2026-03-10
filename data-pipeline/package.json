@@ -9,6 +9,8 @@
     "import": "node scripts/02-import-supabase.js",
     "geocode": "node scripts/03-geocode.js",
     "enrich": "node scripts/04-enrich-google.js",
+    "scrape-places": "node scripts/05-scrape-google-places.js",
+    "cleanup-google": "node scripts/06-cleanup-google.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
